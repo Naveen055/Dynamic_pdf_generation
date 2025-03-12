@@ -98,6 +98,8 @@ You can test the API using **Postman** or **cURL**.
 Run the following command in your terminal:
 ```bash
 curl -X POST http://localhost:8080/api/invoice/generate \
+```
+```bash
 -H "Content-Type: application/json" \
 -d '{
   "seller": "XYZ Pvt. Ltd.",
